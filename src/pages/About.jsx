@@ -52,7 +52,7 @@ const About = () => {
             <div className="text-center m-1 border-2 border-black rounded-lg text-md">{circle.color}</div>
         
         
-            <button onClick={() => increaseCounter(circle.id)} className=" rounded-lg border-4 border-stone-800 p-1 m-2 text-md">Button 1</button>
+            <button onClick={() => increaseCounter(circle.id)} className=" rounded-lg border-4 border-stone-800 p-1 m-2 text-sm md:text-md">Button 1</button>
             </div>
             ))}
       </div>
